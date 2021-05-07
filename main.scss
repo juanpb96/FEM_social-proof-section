@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import './sass/helpers/variables';
+
+html {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  background-image: url(./images/bg-pattern-top-mobile.svg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 80px 0;
+}
+
+.header {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    color: $dark-magenta;
+    letter-spacing: -1px;
+    line-height: 1;
+    font-size: 2.15rem;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    color: $grayish-magenta;
+    line-height: 1.7;
+    font-size: 0.94rem;
+    font-weight: 500;
+  }
+
+  &__rate {
+    margin: 40px 0;
+  }
+
+  .score {
+    background-color: $light-magenta;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+    &__stars {
+      padding-top: 15px;
+    }
+
+    &__star {
+      margin-right: 5px;
+    }
+
+    &__description {
+      color: $dark-magenta;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding-bottom: 15px;
+    }
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
