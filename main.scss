@@ -42,35 +42,97 @@ body {
   }
 
   &__rate {
-    margin: 40px 0;
+    margin: 45px 0;
+  }
+}
+
+.score {
+  background-color: $light-magenta;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  &__stars {
+    padding-top: 15px;
   }
 
-  .score {
-    background-color: $light-magenta;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  &__star {
+    margin-right: 5px;
+  }
 
-    &__stars {
-      padding-top: 15px;
-    }
+  &__description {
+    color: $dark-magenta;
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+}
 
-    &__star {
-      margin-right: 5px;
-    }
+.card {
+  width: 85%;
+  background-color: $dark-magenta;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 15px;
 
-    &__description {
-      color: $dark-magenta;
-      font-size: 0.9rem;
-      font-weight: 700;
-      padding-bottom: 15px;
-    }
+  &__header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__photo {
+    width: 25%;
+    height: 100%;
+  }
+
+  &__img {
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  &__data {
+    width: 75%;
+    text-align: left;
+    font-size: 0.85rem;
+  }
+
+  &__name {
+    color: $white;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  &__subtitle {
+    color: $pink;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  &__review {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: $white;
+    line-height: 2;
+    font-size: 0.82rem;
+    font-weight: 400;
   }
 }
 
 .attribution {
+  padding-bottom: 15px;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1200px) {
+  .attribution {
+    margin-top: 12rem;
+  }  
 }

@@ -32,26 +32,72 @@ body {
     font-size: 0.94rem;
     font-weight: 500; }
   .header__rate {
-    margin: 40px 0; }
-  .header .score {
-    background-color: #f7f2f7;
-    border-radius: 10px;
-    margin-bottom: 15px; }
-    .header .score__stars {
-      padding-top: 15px; }
-    .header .score__star {
-      margin-right: 5px; }
-    .header .score__description {
-      color: #502050;
-      font-size: 0.9rem;
-      font-weight: 700;
-      padding-bottom: 15px; }
+    margin: 45px 0; }
+
+.score {
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  margin-bottom: 15px; }
+  .score__stars {
+    padding-top: 15px; }
+  .score__star {
+    margin-right: 5px; }
+  .score__description {
+    color: #502050;
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding-bottom: 15px; }
+
+.card {
+  width: 85%;
+  background-color: #502050;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+  .card__header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .card__photo {
+    width: 25%;
+    height: 100%; }
+  .card__img {
+    width: 40px;
+    border-radius: 50%; }
+  .card__data {
+    width: 75%;
+    text-align: left;
+    font-size: 0.85rem; }
+  .card__name {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px; }
+  .card__subtitle {
+    color: #ee68a4;
+    font-weight: 400;
+    margin-top: 0; }
+  .card__review {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: white;
+    line-height: 2;
+    font-size: 0.82rem;
+    font-weight: 400; }
 
 .attribution {
+  padding-bottom: 15px;
   font-size: 11px;
   text-align: center; }
 
 .attribution a {
   color: #3e52a3; }
+
+@media only screen and (min-width: 1200px) {
+  .attribution {
+    margin-top: 12rem; } }
 
 /*# sourceMappingURL=style.css.map */
