@@ -96,7 +96,94 @@ body {
 .attribution a {
   color: #3e52a3; }
 
+@media only screen and (min-width: 667px) {
+  .header__title {
+    font-size: 2.5rem; }
+  .header__subtitle {
+    font-size: 1rem; }
+  .header__rate {
+    display: flex;
+    justify-content: space-between; }
+
+  .score {
+    width: 30%;
+    padding: 5px; }
+    .score__description {
+      line-height: 1.7;
+      padding: 0 15px; }
+
+  .reviews {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  .card {
+    width: 46%;
+    margin-bottom: 25px; } }
+@media only screen and (min-width: 968px) {
+  .card {
+    width: 30%; } }
 @media only screen and (min-width: 1200px) {
+  body {
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, center bottom;
+    background-size: auto, 55%; }
+
+  .container {
+    margin: 90px 0; }
+
+  .header {
+    width: 80%;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between; }
+    .header__info {
+      width: 40%;
+      text-align: left; }
+    .header__title {
+      font-size: 3.3rem;
+      margin-bottom: 1rem; }
+    .header__subtitle {
+      font-size: 0.95rem; }
+    .header__rate {
+      width: 50%;
+      flex-direction: column;
+      margin: 42px 0; }
+
+  .score {
+    width: 78%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    padding: 3px 0 3px 35px; }
+    .score--start {
+      align-self: flex-start; }
+    .score--center {
+      align-self: center; }
+    .score--end {
+      align-self: flex-end; }
+    .score__stars {
+      margin-right: 10px; }
+
+  .reviews {
+    height: 260px;
+    width: 80%;
+    max-width: 1200px; }
+
+  .card {
+    width: 32%;
+    max-width: 380px;
+    margin: 0; }
+    .card--start {
+      align-self: flex-start; }
+    .card--center {
+      align-self: center; }
+    .card--end {
+      align-self: flex-end; }
+
   .attribution {
     margin-top: 12rem; } }
 
