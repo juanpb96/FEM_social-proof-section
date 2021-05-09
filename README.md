@@ -31,8 +31,8 @@ Desktop view:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [See live site here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/mobile-first-html-scss-flexbox-bem-dYlQQgOWV)
+- Live Site URL: [See live site here](https://juanbonilla.me/FEM_social-proof-section/)
 
 ## My process
 
@@ -50,6 +50,7 @@ When I reach the part of dealing with these boxes that had a different position,
 
 See below my solution:
 
+HTML:
 ```html
 <section class="reviews">
   <div class="card card--start">...</div>
@@ -57,6 +58,7 @@ See below my solution:
   <div class="card card--end">...</div>
 </section>
 ```
+SCSS:
 ```scss
 .reviews {
   height: 260px;
