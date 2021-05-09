@@ -52,11 +52,11 @@ See below my solution:
 
 HTML:
 ```html
-<section class="reviews">
+<div class="reviews">
   <div class="card card--start">...</div>
   <div class="card card--center">...</div>
   <div class="card card--end">...</div>
-</section>
+</div>
 ```
 SCSS:
 ```scss
