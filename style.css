@@ -73,10 +73,12 @@ body {
     font-size: 0.85rem; }
   .card__name {
     color: white;
+    font-size: 1.1em;
     font-weight: 500;
     margin-bottom: 5px; }
   .card__subtitle {
     color: #ee68a4;
+    font-size: 1em;
     font-weight: 400;
     margin-top: 0; }
   .card__review {
@@ -86,7 +88,7 @@ body {
     color: white;
     line-height: 2;
     font-size: 0.82rem;
-    font-weight: 400; }
+    font-weight: 500; }
 
 .attribution {
   padding-bottom: 15px;

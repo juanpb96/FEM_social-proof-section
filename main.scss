@@ -101,12 +101,14 @@ body {
 
   &__name {
     color: $white;
+    font-size: 1.1em;
     font-weight: 500;
     margin-bottom: 5px;
   }
 
   &__subtitle {
     color: $pink;
+    font-size: 1em;
     font-weight: 400;
     margin-top: 0;
   }
@@ -118,7 +120,7 @@ body {
     color: $white;
     line-height: 2;
     font-size: 0.82rem;
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 
